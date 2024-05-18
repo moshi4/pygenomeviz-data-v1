@@ -1,4 +1,4 @@
-LOCUS       NC_019724              43741 bp    DNA     linear   PHG 21-DEC-2020
+LOCUS       NC_019724              43741 bp    DNA     linear   PHG 08-JAN-2023
 DEFINITION  Enterobacteria phage HK578, complete genome.
 ACCESSION   NC_019724
 VERSION     NC_019724.1
@@ -8,7 +8,7 @@ KEYWORDS    RefSeq.
 SOURCE      Escherichia phage HK578
   ORGANISM  Escherichia phage HK578
             Viruses; Duplodnaviria; Heunggongvirae; Uroviricota;
-            Caudoviricetes; Caudovirales; Siphoviridae; Dhillonvirus.
+            Caudoviricetes; Dhillonvirus; Dhillonvirus HK578.
 REFERENCE   1  (bases 1 to 43741)
   AUTHORS   Refardt,D., Gencoglu,M., Kunzli-Gontarczyk,M., Bruggmann,R. and
             Kropinski,A.M.
@@ -47,7 +47,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp1 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="terminase small subunit"
+                     /product="terminase"
                      /protein_id="YP_007112608.1"
                      /db_xref="GeneID:14182629"
                      /translation="MHKRAYIMAEIKVKGRRAKLDGRVAVTPRRKPGEQTEHTNLGPE
@@ -86,7 +86,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp3 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="portal protein"
                      /protein_id="YP_007112610.1"
                      /db_xref="GeneID:14182571"
                      /translation="MTVNVDNQHPLYARIAPEWKMIRDCVAGERAVKACGPLYLPHPA
@@ -108,7 +108,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp4 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="head morphogenesis protein"
+                     /product="head morphogenesis"
                      /protein_id="YP_007112611.1"
                      /db_xref="GeneID:14182572"
                      /translation="MAKTINQYMADRMIRRHIFTQRLSNDQARRVLSMWEKFRPTLLG
@@ -127,7 +127,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="HK578_005"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Rz-like spanin"
                      /protein_id="YP_007112612.1"
                      /db_xref="GeneID:14182573"
                      /translation="MIKYAAIGLIIGLVVGFWLGDSYRTGVVAEAAQEAQAQAQRQQT
@@ -168,7 +168,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp8 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head scaffolding protein"
                      /protein_id="YP_007112614.1"
                      /db_xref="GeneID:14182575"
                      /translation="MKLTKAEYDALPEGMKALFVADGDGYKSTFMTAEEVQAEIKGLK
@@ -206,7 +206,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp10 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head-tail adaptor Ad1"
                      /protein_id="YP_007112616.1"
                      /db_xref="GeneID:14182577"
                      /translation="MPAFFIGVNEMYGDPQTFIDYAAARGVEVTLSDATRHLTVVNDF
@@ -236,7 +236,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp11 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head closure Hc1"
                      /protein_id="YP_007112618.1"
                      /db_xref="GeneID:14182579"
                      /translation="MAGFNYAGLKRKVNPLIKKFGMTATVTRPGTVDRVDGDEVVIPA
@@ -252,7 +252,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp12 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail completion or Neck1 protein"
                      /protein_id="YP_007112619.1"
                      /db_xref="GeneID:14182580"
                      /translation="MAEVYSFAATIATWVDKTKENNDKAVRAYGMQILGRLIEISPVG
@@ -269,7 +269,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp13 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail terminator"
                      /protein_id="YP_007112620.1"
                      /db_xref="GeneID:14182581"
                      /translation="MSNTLIRKALNRVVEDLSVSLSTSQRPILVNWENVSGDHANGSG
@@ -285,7 +285,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp14 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="tail protein"
+                     /product="major tail protein"
                      /protein_id="YP_007112621.1"
                      /db_xref="GeneID:14182582"
                      /translation="MGYQLPNGSSVQIGSVLGAGIAVTAATNAAASISDLTQGCVITC
@@ -303,7 +303,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp15 [Sodalis phage SO-1], pfam DUF1789"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail length tape measure protein"
                      /protein_id="YP_007112622.1"
                      /db_xref="GeneID:14182583"
                      /translation="MAKAQLFTLDPKPTFKLPIEIPRPGENEPGKMTFTVRHRPIDEF
@@ -403,7 +403,7 @@ FEATURES             Location/Qualifiers
                      [Enterobacteria phage SSL-2009a]"
                      /codon_start=1
                      /transl_table=11
-                     /product="tail component protein"
+                     /product="minor tail protein"
                      /protein_id="YP_007112627.1"
                      /db_xref="GeneID:14182588"
                      /translation="MLTKKVKSDIAAHVAACLPEEACGLVVMVGRKQVFVPCMNVFED
@@ -421,7 +421,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp21 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="tail assembly protein"
+                     /product="tail protein"
                      /protein_id="YP_007112628.1"
                      /db_xref="GeneID:14182589"
                      /translation="MAMTTFKLYGVLGRRFGKVHKLDCFTPGEGITGLCVKLPGLQDF
@@ -439,7 +439,7 @@ FEATURES             Location/Qualifiers
                      protein [Enterobacteria phage SSL-2009a]"
                      /codon_start=1
                      /transl_table=11
-                     /product="bacteriophage host specificity protein"
+                     /product="tail protein"
                      /protein_id="YP_007112629.1"
                      /db_xref="GeneID:14182590"
                      /translation="MTIVYDVTGHKGGGGKQHTPQETPDSLHSLAKIRILLALGEGEF
@@ -474,7 +474,7 @@ FEATURES             Location/Qualifiers
                      [Enterobacteria phage RTP]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="membrane protein"
                      /protein_id="YP_007112630.1"
                      /db_xref="GeneID:14182591"
                      /translation="MAQGIYIDLNDGRNPMTITAGMRALNFAGNFNVSSGGFSKSFPI
@@ -509,7 +509,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp25 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="tail fiber"
+                     /product="tail fiber protein"
                      /protein_id="YP_007112632.1"
                      /db_xref="GeneID:14182593"
                      /translation="MAAGTLSVTNNSKAVVGVGTTFTAFNAGDFLSLVVGQVPYTVAI
@@ -597,7 +597,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp29 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="DNA N-6-adenine-methyltransferase"
+                     /product="DNA methyltransferase"
                      /protein_id="YP_007112637.1"
                      /db_xref="GeneID:14182598"
                      /translation="MSKNEQKDSWCTPPALFKPLRRKYRFRYDMAASDDNHLLPRYFT
@@ -630,7 +630,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp32 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA methyltransferase"
                      /protein_id="YP_007112639.1"
                      /db_xref="GeneID:14182600"
                      /translation="MIIWSLFDGSGLMIERAAEMGHKCYCFNYSEADHGSYLDYRIYG
@@ -648,7 +648,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp33 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA helicase"
                      /protein_id="YP_007112640.1"
                      /db_xref="GeneID:14182601"
                      /translation="MARFRRREYQKLITAFILKHKRCNIWATMGSGKTGATMWALNKM
@@ -685,7 +685,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp35 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Lar-like restriction alleviation protein"
                      /protein_id="YP_007112642.1"
                      /db_xref="GeneID:14182603"
                      /translation="MIEEKRCSNCGCVKPLSQFHKYTGKTARSPDGYRAECKSCRNKK
@@ -700,7 +700,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp36 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="endonuclease"
                      /protein_id="YP_007112643.1"
                      /db_xref="GeneID:14182604"
                      /translation="MTPEGKIQSHLMKLVKAVGGFCRKVAWEGRAGAPDLIIIINGKI
@@ -730,7 +730,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp38 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA polymerase"
                      /protein_id="YP_007112645.1"
                      /db_xref="GeneID:14182606"
                      /translation="MKDFERLFLDTETFSGVDLKKVGAYAYAEHPTTEIMICTYAIDE
@@ -773,7 +773,8 @@ FEATURES             Location/Qualifiers
                      [Enterobacteria phage SSL-2009a]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Gp2.5-like ssDNA binding protein and ssDNA
+                     annealing protein"
                      /protein_id="YP_007112647.1"
                      /db_xref="GeneID:14182608"
                      /translation="MRNWKMAKVNLKNVRVCFLKIWERDTPKQDGQKPAYRAVILLDK
@@ -791,7 +792,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp43 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="exonuclease"
                      /protein_id="YP_007112648.1"
                      /db_xref="GeneID:14182609"
                      /translation="MAIKPKRKTQSGSNTEHSLLGPSGAKKWMGCPAALVVEKDIPNE
@@ -870,7 +871,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp47 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="transposase"
                      /protein_id="YP_007112652.1"
                      /db_xref="GeneID:14182613"
                      /translation="MSTNETLNRWNHKKWPHQINRATEDDNTIAFGDMDADPMTPEQI
@@ -886,7 +887,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp48 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="replicative helicase-primase"
                      /protein_id="YP_007112653.1"
                      /db_xref="GeneID:14182614"
                      /translation="MKNYLIEFGTVGGKYGKRVKNHSMTEAEFMEYVADTVELSGVTI
@@ -1032,7 +1033,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp54 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="holin"
                      /protein_id="YP_007112662.1"
                      /db_xref="GeneID:14182623"
                      /translation="MDKLNEWLFALACLAGGFVGARLHGEATKGPLNFVLYVVVGFLC
@@ -1047,7 +1048,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp55 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="holin"
                      /protein_id="YP_007112663.1"
                      /db_xref="GeneID:14182624"
                      /translation="MIITVLLFVIIGASSLFNVYAPSVQDGILGRVLYLLTAMVCIIG
@@ -1062,7 +1063,7 @@ FEATURES             Location/Qualifiers
                      /note="similar to gp56 [Sodalis phage SO-1]"
                      /codon_start=1
                      /transl_table=11
-                     /product="lysozyme"
+                     /product="endolysin"
                      /protein_id="YP_007112664.1"
                      /db_xref="GeneID:14182625"
                      /translation="MRFSDNGLRFTAAWETFSPVPYFATKKEQARGLYTWGYGHTGTN
@@ -1080,7 +1081,7 @@ FEATURES             Location/Qualifiers
                      [Enterobacteria phage SSL-2009a], pfam Big_2"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="structural protein with Ig domain"
                      /protein_id="YP_007112665.1"
                      /db_xref="GeneID:14182626"
                      /translation="MLDSILRRKERIIKTLPAVQNPEARRILAGDMNVSGVFDKAVPE
@@ -1097,7 +1098,7 @@ FEATURES             Location/Qualifiers
                      [Enterobacteria phage SSL-2009a], pfam Metallophos_2"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA repair exonuclease"
                      /protein_id="YP_007112666.1"
                      /db_xref="GeneID:14182627"
                      /translation="MHPQTKITDEQLIAEIQAGTTVKEIAKKYGIALRNVYMRKARLS

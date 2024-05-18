@@ -1,13 +1,13 @@
-LOCUS       NC_013600              45169 bp    DNA     circular PHG 12-OCT-2021
+LOCUS       NC_013600              45169 bp    DNA     circular PHG 08-JAN-2023
 DEFINITION  Sodalis phage SO-1, complete genome.
 ACCESSION   NC_013600
 VERSION     NC_013600.1
 DBLINK      BioProject: PRJNA485481
 KEYWORDS    RefSeq.
-SOURCE      Sodalis phage SO1
-  ORGANISM  Sodalis phage SO1
+SOURCE      Sodalis phage SO-1
+  ORGANISM  Sodalis phage SO-1
             Viruses; Duplodnaviria; Heunggongvirae; Uroviricota;
-            Caudoviricetes; Caudovirales; Siphoviridae; Dhillonvirus.
+            Caudoviricetes; Dhillonvirus; Dhillonvirus SO1.
 REFERENCE   1  (bases 1 to 45169)
   AUTHORS   Young,S.A., Darby,A.C. and Welburn,S.C.
   TITLE     Molecular characterization of an active bacteriophage infecting the
@@ -28,7 +28,7 @@ COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
             COMPLETENESS: full length.
 FEATURES             Location/Qualifiers
      source          1..45169
-                     /organism="Sodalis phage SO1"
+                     /organism="Sodalis phage SO-1"
                      /mol_type="genomic DNA"
                      /isolation_source="Sodalis glossinidius strain GA-SG,
                      secondary symbiont of Glossina austeni (Newstead)"
@@ -44,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage terminase small subunit"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp1"
+                     /product="terminase"
                      /protein_id="YP_003344936.1"
                      /db_xref="GeneID:11117761"
                      /translation="MHKRAYIMAEIKVKGRRAKLDGRVAVTPRRKPGEQTEHTNLGPE
@@ -59,7 +59,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage terminase large subunit"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp2"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344937.1"
                      /db_xref="GeneID:11117762"
                      /translation="MRNYAAEHRALERAIAKRNRPPRPTRVAQAVRLYQPDCLPHQVE
@@ -79,7 +79,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage minor tail protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp3"
+                     /product="portal protein"
                      /protein_id="YP_003344938.1"
                      /db_xref="GeneID:11117763"
                      /translation="MTVNVDNQHPLYARIAPEWKMIRDCVAGERAVKACGPLYLPHPA
@@ -99,7 +99,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage minor head protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp4"
+                     /product="head morphogenesis"
                      /protein_id="YP_003344939.1"
                      /db_xref="GeneID:11117764"
                      /translation="MAKTINQHLADRMIRRHIFTQRLSNDQARRVLTMWEKFRPALLG
@@ -116,7 +116,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp05"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp5"
+                     /product="Rz-like spanin"
                      /protein_id="YP_003344940.1"
                      /db_xref="GeneID:11117765"
                      /translation="MIKYAAIGLVIGLAVGFWLGDSYRAGVEARAAQEAQAKAQRQQT
@@ -129,7 +129,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp06"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp6"
+                     /product="Rz-like spanin"
                      /protein_id="YP_003344941.1"
                      /db_xref="GeneID:11117766"
                      /translation="MLRVLTVLIAVLMMSACGSSKVPSMPLTESVYRPPCTFENASAD
@@ -143,7 +143,7 @@ FEATURES             Location/Qualifiers
                      moron gene product"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp7"
+                     /product="RusA-like Holliday junction resolvase"
                      /protein_id="YP_003344942.1"
                      /db_xref="GeneID:11117767"
                      /translation="MTMIKVNYADLKAAMMCAATNDVRYYLNGVFFDEEGFIVATDGH
@@ -157,7 +157,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp08"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp8"
+                     /product="head scaffolding protein"
                      /protein_id="YP_003344943.1"
                      /db_xref="GeneID:11117768"
                      /translation="MQPIRGLQANFAIIFIADNIRSVKSSGWPALPQSQGDSMKLTKA
@@ -173,7 +173,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage major head protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp9"
+                     /product="major head protein"
                      /protein_id="YP_003344944.1"
                      /db_xref="GeneID:11117769"
                      /translation="MSLTVFQRKLVTAVTQMIPDNLNVFNAAANGAVVLGTGEVLKDV
@@ -190,7 +190,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp10"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp10"
+                     /product="head-tail adaptor Ad1"
                      /protein_id="YP_003344945.1"
                      /db_xref="GeneID:11117770"
                      /translation="MGGLMPAFFIGVNLMYGDPQTFVDYAAARGVEVTLGDATRHLTI
@@ -204,7 +204,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp11"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp11"
+                     /product="head closure Hc1"
                      /protein_id="YP_003344946.1"
                      /db_xref="GeneID:11117771"
                      /translation="MAGFNYAGLKRKVNLLIKKFGMTVTVTRPGSVDRVDGEEVVIQP
@@ -217,7 +217,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp12"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp12"
+                     /product="tail completion or Neck1 protein"
                      /protein_id="YP_003344947.1"
                      /db_xref="GeneID:11117713"
                      /translation="MAEVYSFAATIATWVDKTKENNDKAVRAYGMQILGRLIEISPVG
@@ -231,7 +231,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp13"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp13"
+                     /product="tail terminator"
                      /protein_id="YP_003344948.1"
                      /db_xref="GeneID:11117714"
                      /translation="MSNTLIRKALNSVVDELSVSLSTSTRPIKVNWENVSGDHANGSG
@@ -245,7 +245,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage major tail protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp14"
+                     /product="major tail protein"
                      /protein_id="YP_003344949.1"
                      /db_xref="GeneID:11117715"
                      /translation="MGYQLPNGSSVQIGSVLGSGIAVTAATNAAASISDLTQGCVITC
@@ -260,7 +260,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp15"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp15"
+                     /product="tail length tape measure protein"
                      /protein_id="YP_003344950.1"
                      /db_xref="GeneID:11117716"
                      /translation="MAKAPLFTLDPKPTFKLPIEIPRPGENEPGKMTFTVRHRPIDEF
@@ -273,7 +273,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp16"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp16"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344951.1"
                      /db_xref="GeneID:11117717"
                      /translation="MEAARRFYGPPPPSEDLAASLWGASPEDVCPPVALWPDNAKIVA
@@ -291,7 +291,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage tail length tape measure protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp17"
+                     /product="tail length tape measure protein"
                      /protein_id="YP_003344952.1"
                      /db_xref="GeneID:11117718"
                      /translation="MADQAAGITLKADVAQIRTANTVLDSFAQKSENTENKVKKLNDT
@@ -318,7 +318,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage minor tail protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp18"
+                     /product="minor tail protein"
                      /protein_id="YP_003344953.1"
                      /db_xref="GeneID:11117719"
                      /translation="MSQGTITLTKGSKTVTGAGTAFLSEIGKVRVFARIDGNDYTGKI
@@ -333,7 +333,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage minor tail protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp19"
+                     /product="minor tail protein"
                      /protein_id="YP_003344954.1"
                      /db_xref="GeneID:11117720"
                      /translation="MNKLYREATRFDPSGRVRLIHIDAQDVEPGDGAIGAGHHYFHYC
@@ -349,7 +349,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage minor tail protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp20"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344955.1"
                      /db_xref="GeneID:11117721"
                      /translation="MLTKKVKSDIAAHVAACLPEEACGLVVMVGRKQVFIPCVNVFED
@@ -365,7 +365,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage tail assembly protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp21"
+                     /product="tail protein"
                      /protein_id="YP_003344956.1"
                      /db_xref="GeneID:11117722"
                      /translation="MAMTTFKLYGVLGRRFGKVHKLDCFTPGEGITGLCVKLPGLQDF
@@ -380,7 +380,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage tail fiber tip protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp22"
+                     /product="tail protein"
                      /protein_id="YP_003344957.1"
                      /db_xref="GeneID:11117723"
                      /translation="MTIIYDVTGHKGGGGKQHTPQETPDSLHSLAKIRILLALGEGEF
@@ -411,7 +411,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp23"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp23"
+                     /product="membrane protein"
                      /protein_id="YP_003344958.1"
                      /db_xref="GeneID:11117724"
                      /translation="MGAGILIDYNDGRPRMEITAGLRAPAYCTSFNQRAQSNKTLTIN
@@ -428,7 +428,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage lipoprotein"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp24"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344959.1"
                      /db_xref="GeneID:11117725"
                      /translation="MKTLIMICAVLLSGCAVERNNGECITVAYGSCMLRYVDGQKVPA
@@ -441,7 +441,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage tail fiber protein"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp25"
+                     /product="tail fiber protein"
                      /protein_id="YP_003344960.1"
                      /db_xref="GeneID:11117726"
                      /translation="MAAGTLSVTNNSKAVVGVGTTFTAFKAGDFLTLVVGQVPYTVAI
@@ -462,7 +462,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp26"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp26"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344961.1"
                      /db_xref="GeneID:11117727"
                      /translation="MYGEYEISGKQFHLAAMIASIEFDQWRLKSDACKQSRLVGVLGE
@@ -476,7 +476,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp27"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp27"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344962.1"
                      /db_xref="GeneID:11117728"
                      /translation="MEQRGKENGYDNAKEERSAKQIAAVFNALTGRDLSEQEAWTFLI
@@ -490,7 +490,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp28"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp28"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344963.1"
                      /db_xref="GeneID:11117729"
                      /translation="MKLLICDLDGVINGSSDARADLVPGVKTKSTFWAKWHKAHVRED
@@ -504,7 +504,7 @@ FEATURES             Location/Qualifiers
                      /note="putative DNA N-6-adenine-methyltransferase"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp29"
+                     /product="DNA methyltransferase"
                      /protein_id="YP_003344964.1"
                      /db_xref="GeneID:11117730"
                      /translation="MQKSEQKDSWRTPPALFKPLRRKYRFRYDMAASDANHLLPRYFT
@@ -519,7 +519,7 @@ FEATURES             Location/Qualifiers
                      /note="putative DNA ligase"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp30"
+                     /product="DNA ligase"
                      /protein_id="YP_003344965.1"
                      /db_xref="GeneID:11117731"
                      /translation="MKILQEEKNYWAAQCLEAREQAERANAVADTNQALYEGEKKVRQ
@@ -533,7 +533,7 @@ FEATURES             Location/Qualifiers
                      /note="putative HNH endonuclease"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp31"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344966.1"
                      /db_xref="GeneID:11117732"
                      /translation="MNTTFEAIDFSVAMTNQLFSYDSKTGVIRLKSTGCKIGNINTAD
@@ -547,7 +547,7 @@ FEATURES             Location/Qualifiers
                      /note="putative DNA cytosine-C5-methyltransferase"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp32"
+                     /product="DNA methyltransferase"
                      /protein_id="YP_003344967.1"
                      /db_xref="GeneID:11117733"
                      /translation="MIIWSLFDGSGLMIERAAEMGHKCYCFNYSEADHGSYLDYRIYG
@@ -563,7 +563,7 @@ FEATURES             Location/Qualifiers
                      /note="putative DEXX-box helicase"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp33"
+                     /product="DNA helicase"
                      /protein_id="YP_003344968.1"
                      /db_xref="GeneID:11117734"
                      /translation="MARFRRREYQKLITAFILKHKRCNIWATMGSGKTGATMWALNKM
@@ -582,7 +582,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp34"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp34"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344969.1"
                      /db_xref="GeneID:11117735"
                      /translation="MTMKEHYRLTKLGECKPGDRVWFIAGMNDPLPLTVCWQKFKSFR
@@ -594,7 +594,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp35"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp35"
+                     /product="Lar-like restriction alleviation protein"
                      /protein_id="YP_003344970.1"
                      /db_xref="GeneID:11117736"
                      /translation="MIEEKRCSNCGCVKPLSQFHKYTGKTARSPDGYRAECKSCRNKK
@@ -606,7 +606,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp36"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp36"
+                     /product="endonuclease"
                      /protein_id="YP_003344971.1"
                      /db_xref="GeneID:11117737"
                      /translation="MTPEGKIQSHLMRRVKEVGGFCRKLAWEGRAGAPDLIIIINGKI
@@ -619,7 +619,7 @@ FEATURES             Location/Qualifiers
                      /note="putative HNH endonuclease"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp37"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344972.1"
                      /db_xref="GeneID:11117738"
                      /translation="MKHCGRCNTDKDESAFNKGQSWCAKCMAAYKKERRDKERGAPPR
@@ -635,7 +635,7 @@ FEATURES             Location/Qualifiers
                      self-splicing intron"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp38"
+                     /product="DNA polymerase"
                      /protein_id="YP_003344973.1"
                      /db_xref="GeneID:11117739"
                      /translation="MKDFERLFLDTETFSGVDLKKVGAYAYAEHPTTEIMICTYAIDE
@@ -665,7 +665,7 @@ FEATURES             Location/Qualifiers
                      /note="type I self-splicing intron"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp39"
+                     /product="HNH endonuclease"
                      /protein_id="YP_003344974.1"
                      /db_xref="GeneID:11117740"
                      /translation="MERRKMGEYTRRAPYGVETSDRRGRGLDDRRPQNLDAFMEGGKA
@@ -680,7 +680,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp40"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp40"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344975.1"
                      /db_xref="GeneID:11117741"
                      /translation="MRIKASEVKVGMKVWSKLLGEYFTVAEIRNNGEEIALSDGIFSM
@@ -692,7 +692,8 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp41"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp41"
+                     /product="Gp2.5-like ssDNA binding protein and ssDNA
+                     annealing protein"
                      /protein_id="YP_003344976.1"
                      /db_xref="GeneID:11117742"
                      /translation="MRNWKMAKVNLKNVRVCFLKIWERDTPKQDGQKPAYRAVILLDK
@@ -707,7 +708,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp42"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp42"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344977.1"
                      /db_xref="GeneID:11117743"
                      /translation="MNKVFAILLMFVIGALGFILNCVQGVLMVAWMVRHPTRWLDDGY
@@ -719,7 +720,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp43"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp43"
+                     /product="exonuclease"
                      /protein_id="YP_003344978.1"
                      /db_xref="GeneID:11117744"
                      /translation="MAIKPKRKTQSGSNTEHSLLGPSGAKKWMGCPAALVVEKDIPNE
@@ -738,7 +739,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp44"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp44"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344979.1"
                      /db_xref="GeneID:11117745"
                      /translation="MAIFFVLFRCRITGDEQPEIVMNQNWNCCWTQARELASTMNEAA
@@ -750,7 +751,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp45"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp45"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344980.1"
                      /db_xref="GeneID:11117746"
                      /translation="MARFTLIEAVDSRDQRPYYWLFERIGNFQSRVAVIDKRRNTPAQ
@@ -762,7 +763,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp46"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp46"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344981.1"
                      /db_xref="GeneID:11117747"
                      /translation="MQDANWRGATQGPDRSVRIPNRDYITRSTTRTGERATGQYVKAT
@@ -777,7 +778,7 @@ FEATURES             Location/Qualifiers
                      /note="putative transposase"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp47"
+                     /product="transposase"
                      /protein_id="YP_003344982.1"
                      /db_xref="GeneID:11117748"
                      /translation="MNVNDAIEMLTKTVCSETSRSWAYTDAVGAVLFEIERLRSVEKE
@@ -791,7 +792,7 @@ FEATURES             Location/Qualifiers
                      /note="putative phage replicative helicase/primease"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp48"
+                     /product="replicative helicase-primase"
                      /protein_id="YP_003344983.1"
                      /db_xref="GeneID:11117749"
                      /translation="MSLIKFAVTRPAKKGEKARAENFQMTTEEFFEFINDAKEISSVH
@@ -819,7 +820,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp49"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp49"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344984.1"
                      /db_xref="GeneID:11117750"
                      /translation="MKTEMVDKHEIKIGDTVVHNGELRTVCKRAFSIDEFMGLLLWGD
@@ -831,7 +832,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp50"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp50"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344985.1"
                      /db_xref="GeneID:11117751"
                      /translation="MKALIWNYSLAVAKLDEAKALNGNVDQALHVAILAHQSLRSALY
@@ -843,7 +844,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp51"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp51"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344986.1"
                      /db_xref="GeneID:11117752"
                      /translation="MSRRLAKQLSWHIPLHCIRIWAKNAVEGESVFWCYRDDVKPLTQ
@@ -855,7 +856,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp52"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp52"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344987.1"
                      /db_xref="GeneID:11117753"
                      /translation="MKLLFRRKHDGRILKPIQTLDSYVRLQDAAGNRVWWAVKDKLLE
@@ -869,7 +870,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp53"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp53"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344988.1"
                      /db_xref="GeneID:11117754"
                      /translation="MLHDLIYWFGLACGLCLVTAVLGAIWIFLIWPAVEAASITRMTF
@@ -881,7 +882,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp54"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp54"
+                     /product="holin"
                      /protein_id="YP_003344989.1"
                      /db_xref="GeneID:11117755"
                      /translation="MDKLNEWLFALACLAGGFVGARLHGEATKGPLNFVLYIVVGFLC
@@ -893,7 +894,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp55"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp55"
+                     /product="holin"
                      /protein_id="YP_003344990.1"
                      /db_xref="GeneID:11117756"
                      /translation="MIISVLLFVIIGASSLFNVYAPSVQDGILGRVLYLLTAMICVIG
@@ -906,7 +907,7 @@ FEATURES             Location/Qualifiers
                      /note="putative lysozyme"
                      /codon_start=1
                      /transl_table=11
-                     /product="lysozyme"
+                     /product="endolysin"
                      /protein_id="YP_003344991.1"
                      /db_xref="GeneID:11117757"
                      /translation="MRFSDNGLRFTAAWEQFSPVPYFATKKEQARGLYTWGYGHTGTN
@@ -920,7 +921,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp57"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp57"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344992.1"
                      /db_xref="GeneID:11117758"
                      /translation="MLKSILDHNADALAALAKTEDPGARAIIADTISHAGIFDAKLPS
@@ -933,7 +934,7 @@ FEATURES             Location/Qualifiers
                      /note="putative transcriptional regulator"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp58"
+                     /product="DNA repair exonuclease"
                      /protein_id="YP_003344993.1"
                      /db_xref="GeneID:11117759"
                      /translation="MHPQTKITDEQLIAELQSGTTAKEIAKKYGLSLRNVYMRKARLS
@@ -950,12 +951,12 @@ FEATURES             Location/Qualifiers
                      /locus_tag="SoPhSO1_gp59"
                      /codon_start=1
                      /transl_table=11
-                     /product="gp59"
+                     /product="hypothetical protein"
                      /protein_id="YP_003344994.1"
                      /db_xref="GeneID:11117760"
                      /translation="MIRQVFMSTQDARLKELRKQLEGLRRFERTAAAIGMSISERIEI
                      LSQIRYTEGAIREVESMLTRYYGRAI"
-ORIGIN      
+ORIGIN
         1 tataatccac ttagatggca gggccgtctc ttatgttgcc gatggtcggc gcatatgcac
        61 aaaagggctt atatcatggc agaaattaaa gttaagggcc gtcgcgccaa actggacgga
       121 cgagtagcag ttaccccgcg ccgtaaacct ggcgagcaaa cagaacatac caatctcggg
@@ -1710,4 +1711,3 @@ ORIGIN
     45061 gctacacaga gggcgccata cgcgaagtag aaagcatgtt gacccgatac tacggtcgcg
     45121 ccatttaacc ctcccagccc gccgatttgg tgggcttttt tgtgcctgt
 //
-

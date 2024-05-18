@@ -1,4 +1,4 @@
-LOCUS       NC_028901              43900 bp    DNA     linear   PHG 12-OCT-2021
+LOCUS       NC_028901              43900 bp    DNA     linear   PHG 08-JAN-2023
 DEFINITION  Escherichia phage slur05, complete genome.
 ACCESSION   NC_028901
 VERSION     NC_028901.1
@@ -7,8 +7,7 @@ KEYWORDS    RefSeq; complete genome.
 SOURCE      Escherichia phage slur05
   ORGANISM  Escherichia phage slur05
             Viruses; Duplodnaviria; Heunggongvirae; Uroviricota;
-            Caudoviricetes; Caudovirales; Siphoviridae; Dhillonvirus;
-            unclassified Dhillonvirus.
+            Caudoviricetes; Dhillonvirus.
 REFERENCE   1
   AUTHORS   Smith,R., O'Hara,M., Hobman,J.L. and Millard,A.D.
   TITLE     Draft Genome Sequences of 14 Escherichia coli Phages Isolated from
@@ -45,7 +44,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00001"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA helicase"
                      /protein_id="YP_009208087.1"
                      /db_xref="InterPro:IPR027417"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QEV8"
@@ -66,7 +65,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00002"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA methyltransferase"
                      /protein_id="YP_009208088.1"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QA48"
                      /db_xref="GeneID:26634748"
@@ -100,7 +99,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00004"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA ligase"
                      /protein_id="YP_009208090.1"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QCY1"
                      /db_xref="GeneID:26634750"
@@ -117,7 +116,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00005"
                      /codon_start=1
                      /transl_table=11
-                     /product="DNA N-6-adenine-methyltransferase (Dam)"
+                     /product="DNA methyltransferase"
                      /protein_id="YP_009208091.1"
                      /db_xref="GOA:A0A0M7QBJ7"
                      /db_xref="InterPro:IPR008593"
@@ -202,7 +201,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00010"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail fiber protein"
                      /protein_id="YP_009208096.1"
                      /db_xref="InterPro:IPR030392"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QAJ6"
@@ -241,7 +240,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00012"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="membrane protein"
                      /protein_id="YP_009208098.1"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QA54"
                      /db_xref="GeneID:26634758"
@@ -260,7 +259,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00013"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail protein"
                      /protein_id="YP_009208099.1"
                      /db_xref="InterPro:IPR003961"
                      /db_xref="InterPro:IPR015406"
@@ -297,7 +296,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00014"
                      /codon_start=1
                      /transl_table=11
-                     /product="Bacteriophage lambda tail assembly protein I"
+                     /product="tail protein"
                      /protein_id="YP_009208100.1"
                      /db_xref="GOA:A0A0M7QCZ1"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QCZ1"
@@ -316,7 +315,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00015"
                      /codon_start=1
                      /transl_table=11
-                     /product="NlpC/P60 family protein"
+                     /product="minor tail protein"
                      /protein_id="YP_009208101.1"
                      /db_xref="InterPro:IPR000064"
                      /db_xref="InterPro:IPR028090"
@@ -337,7 +336,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00016"
                      /codon_start=1
                      /transl_table=11
-                     /product="Phage minor tail protein L"
+                     /product="minor tail protein"
                      /protein_id="YP_009208102.1"
                      /db_xref="InterPro:IPR006487"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QAC4"
@@ -357,7 +356,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00017"
                      /codon_start=1
                      /transl_table=11
-                     /product="Phage minor tail protein"
+                     /product="minor tail protein"
                      /protein_id="YP_009208103.1"
                      /db_xref="InterPro:IPR010265"
                      /db_xref="UniProtKB/TrEMBL:A0A0M9JDU4"
@@ -376,7 +375,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00018"
                      /codon_start=1
                      /transl_table=11
-                     /product="Prophage tail length tape measure protein"
+                     /product="tail length tape measure protein"
                      /protein_id="YP_009208104.1"
                      /db_xref="InterPro:IPR006431"
                      /db_xref="InterPro:IPR009628"
@@ -407,7 +406,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00019"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail length tape measure protein"
                      /protein_id="YP_009208105.1"
                      /db_xref="InterPro:IPR014859"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QCN0"
@@ -425,7 +424,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00020"
                      /codon_start=1
                      /transl_table=11
-                     /product="Phage tail protein"
+                     /product="major tail protein"
                      /protein_id="YP_009208106.1"
                      /db_xref="InterPro:IPR014918"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QAK4"
@@ -444,7 +443,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00021"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail terminator"
                      /protein_id="YP_009208107.1"
                      /db_xref="InterPro:IPR025395"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QEX2"
@@ -461,7 +460,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00022"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail completion or Neck1 protein"
                      /protein_id="YP_009208108.1"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QA63"
                      /db_xref="GeneID:26634768"
@@ -478,7 +477,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00023"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head closure Hc1"
                      /protein_id="YP_009208109.1"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QA75"
                      /db_xref="GeneID:26634769"
@@ -508,7 +507,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00025"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head-tail adaptor Ad1"
                      /protein_id="YP_009208111.1"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QBL5"
                      /db_xref="GeneID:26634771"
@@ -525,7 +524,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00026"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="major head protein"
                      /protein_id="YP_009208112.1"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QAD3"
                      /db_xref="GeneID:26634772"
@@ -545,7 +544,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00027"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head scaffolding protein"
                      /protein_id="YP_009208113.1"
                      /db_xref="UniProtKB/TrEMBL:A0A0M9JDQ4"
                      /db_xref="GeneID:26634773"
@@ -581,7 +580,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00029"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Rz-like spanin"
                      /protein_id="YP_009208115.1"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QCN9"
                      /db_xref="GeneID:26634775"
@@ -597,7 +596,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00030"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head morphogenesis"
                      /protein_id="YP_009208116.1"
                      /db_xref="InterPro:IPR017029"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QAL2"
@@ -618,7 +617,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00031"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="portal protein"
                      /protein_id="YP_009208117.1"
                      /db_xref="InterPro:IPR025129"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QEY3"
@@ -665,7 +664,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00033"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="terminase"
                      /protein_id="YP_009208119.1"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QA82"
                      /db_xref="GeneID:26634779"
@@ -698,8 +697,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00035"
                      /codon_start=1
                      /transl_table=11
-                     /product="Calcineurin-like phosphoesterase superfamily
-                     domain protein"
+                     /product="DNA repair exonuclease"
                      /protein_id="YP_009208121.1"
                      /db_xref="InterPro:IPR029052"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QBM3"
@@ -736,7 +734,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00037"
                      /codon_start=1
                      /transl_table=11
-                     /product="lysozyme"
+                     /product="endolysin"
                      /protein_id="YP_009208123.1"
                      /db_xref="GOA:A0A0M9JDQ1"
                      /db_xref="InterPro:IPR002196"
@@ -757,7 +755,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00038"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="holin"
                      /protein_id="YP_009208124.1"
                      /db_xref="GOA:A0A0M7QE37"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QE37"
@@ -773,7 +771,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00039"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="holin"
                      /protein_id="YP_009208125.1"
                      /db_xref="GOA:A0A0M7QCP7"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QCP7"
@@ -869,7 +867,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00045"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="replicative helicase-primase"
                      /protein_id="YP_009208131.1"
                      /db_xref="InterPro:IPR027417"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QBN0"
@@ -897,7 +895,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00046"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="transposase"
                      /protein_id="YP_009208132.1"
                      /db_xref="GOA:A0A0M7QAE5"
                      /db_xref="InterPro:IPR009057"
@@ -977,7 +975,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00051"
                      /codon_start=1
                      /transl_table=11
-                     /product="PD-(D/E)XK nuclease superfamily protein"
+                     /product="exonuclease"
                      /protein_id="YP_009208137.1"
                      /db_xref="InterPro:IPR021229"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QF01"
@@ -1015,7 +1013,8 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00053"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Gp2.5-like ssDNA binding protein and ssDNA
+                     annealing protein"
                      /protein_id="YP_009208139.1"
                      /db_xref="InterPro:IPR012340"
                      /db_xref="InterPro:IPR022595"
@@ -1054,7 +1053,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00055"
                      /codon_start=1
                      /transl_table=11
-                     /product="DNA polymerase I, thermostable"
+                     /product="DNA polymerase"
                      /protein_id="YP_009208141.1"
                      /db_xref="GOA:A0A0M7QBN9"
                      /db_xref="InterPro:IPR001098"
@@ -1100,7 +1099,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00057"
                      /codon_start=1
                      /transl_table=11
-                     /product="VRR-NUC domain protein"
+                     /product="endonuclease"
                      /protein_id="YP_009208143.1"
                      /db_xref="GOA:A0A0M9JDP9"
                      /db_xref="InterPro:IPR011335"
@@ -1119,7 +1118,7 @@ FEATURES             Location/Qualifiers
                      /note="submitter_locus_tag: slur05_00058"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Lar-like restriction alleviation protein"
                      /protein_id="YP_009208144.1"
                      /db_xref="UniProtKB/TrEMBL:A0A0M7QE54"
                      /db_xref="GeneID:26634803"

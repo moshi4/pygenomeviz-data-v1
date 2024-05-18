@@ -1,4 +1,4 @@
-LOCUS       NC_031081              45206 bp    DNA     linear   PHG 12-OCT-2021
+LOCUS       NC_031081              45206 bp    DNA     linear   PHG 09-JAN-2023
 DEFINITION  Escherichia phage Envy, complete genome.
 ACCESSION   NC_031081
 VERSION     NC_031081.1
@@ -7,8 +7,7 @@ KEYWORDS    RefSeq.
 SOURCE      Escherichia phage Envy
   ORGANISM  Escherichia phage Envy
             Viruses; Duplodnaviria; Heunggongvirae; Uroviricota;
-            Caudoviricetes; Caudovirales; Siphoviridae; Dhillonvirus;
-            unclassified Dhillonvirus.
+            Caudoviricetes; Dhillonvirus.
 REFERENCE   1  (bases 1 to 45206)
   AUTHORS   Malki,K., Sible,E., Cooper,A., Garretto,A., Bruder,K. and
             Putonti,C.
@@ -61,7 +60,8 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp02"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Gp2.5-like ssDNA binding protein and ssDNA
+                     annealing protein"
                      /protein_id="YP_009288124.1"
                      /db_xref="GeneID:29066851"
                      /translation="MAKVNLKNVRVCFLKIWERDTPKQDGQKPAYRAVILLDKEDPQV
@@ -88,7 +88,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp04"
                      /codon_start=1
                      /transl_table=11
-                     /product="DNA polymerase I"
+                     /product="DNA polymerase"
                      /protein_id="YP_009288126.1"
                      /db_xref="GeneID:29066853"
                      /translation="MKDFERLFLDTETFSGVDLKKVGAYAYAEHPTTEIMICTYAIDE
@@ -126,7 +126,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp06"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="endonuclease"
                      /protein_id="YP_009288128.1"
                      /db_xref="GeneID:29066855"
                      /translation="MTPEGKVQRHLMKRVKEVGGFCRKLAWEGRAGAPDLIIIINGII
@@ -138,7 +138,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp07"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Lar-like restriction alleviation protein"
                      /protein_id="YP_009288129.1"
                      /db_xref="GeneID:29066856"
                      /translation="MIEEKRCSNCGCVKPLSQFHKYTGKTARSPDGYRAECKSCRNKK
@@ -181,7 +181,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp10"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA methyltransferase"
                      /protein_id="YP_009288132.1"
                      /db_xref="GeneID:29066859"
                      /translation="MIIWSLFDGSGLMIERAAEMGHKCYCFNYSEADHGSYLDYRIYG
@@ -222,7 +222,7 @@ FEATURES             Location/Qualifiers
                      /note="protein Possible DNA ligase but no evidence"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA ligase"
                      /protein_id="YP_009288135.1"
                      /db_xref="GeneID:29066862"
                      /translation="MKILQEEKAYWVAQCLEAREKAEGATALADTYLASYEGEEKVRK
@@ -235,7 +235,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp14"
                      /codon_start=1
                      /transl_table=11
-                     /product="DNA N-6-adenine methyltransferase"
+                     /product="DNA methyltransferase"
                      /protein_id="YP_009288136.1"
                      /db_xref="GeneID:29066863"
                      /translation="MQKSEQKDSWRTPPALFKPLRRKFRFRYDMAASDANHLLPRYFT
@@ -303,7 +303,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp19"
                      /codon_start=1
                      /transl_table=11
-                     /product="tail fibers protein"
+                     /product="tail fiber protein"
                      /protein_id="YP_009288141.1"
                      /db_xref="GeneID:29066868"
                      /translation="MAAGTLSVTNNSTAVVGVGTTFTAFKAGDFLTLVVGQVPYTVAI
@@ -329,7 +329,7 @@ FEATURES             Location/Qualifiers
                      /note="super-infection exclusion protein, cor"
                      /codon_start=1
                      /transl_table=11
-                     /product="super-infection exclusion protein"
+                     /product="Cor superinfection exclusion protein"
                      /protein_id="YP_009288142.1"
                      /db_xref="GeneID:29066869"
                      /translation="MKTLIMICAVLLSGCANMPAKVCDATYQNSGMDYAVPVYGVADF
@@ -341,7 +341,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp21"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="membrane associated protein"
                      /protein_id="YP_009288143.1"
                      /db_xref="GeneID:29066870"
                      /translation="MANYGALIDLPNGNPFITPESTPFCLFRRVVVGSSANGTAQSAA
@@ -356,7 +356,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp22"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="outer membrane protein"
                      /protein_id="YP_009288144.1"
                      /db_xref="GeneID:29066871"
                      /translation="MAFGIATWDAQGRPNNYGIKPVSVIGRIHLAEGQKSGAWSFPVP
@@ -368,7 +368,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp23"
                      /codon_start=1
                      /transl_table=11
-                     /product="tail fiber protein"
+                     /product="tail protein"
                      /protein_id="YP_009288145.1"
                      /db_xref="GeneID:29066872"
                      /translation="MTIIYDVTGHKGGGGKQHTPQETPDSLHSLAKIRILLALGEGEF
@@ -398,7 +398,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp24"
                      /codon_start=1
                      /transl_table=11
-                     /product="tail assembly protein"
+                     /product="tail protein"
                      /protein_id="YP_009288146.1"
                      /db_xref="GeneID:29066873"
                      /translation="MAMTTFKLYGVLGRRFGKVHKLDCFTPGEGITGLCVKLPGLQDF
@@ -456,7 +456,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp28"
                      /codon_start=1
                      /transl_table=11
-                     /product="tail length tape-measure protein 1"
+                     /product="tail length tape measure protein"
                      /protein_id="YP_009288150.1"
                      /db_xref="GeneID:29066877"
                      /translation="MADQAAGITLKADVAQIRTANTVLDSFAQKSENTENKVKKLNDT
@@ -494,7 +494,7 @@ FEATURES             Location/Qualifiers
                      /note="JK_16P"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail length tape measure protein"
                      /protein_id="YP_009288152.1"
                      /db_xref="GeneID:29066879"
                      /translation="MAKAPLFTLDPKPTFKLPIEIPRPGENEPGKMTFTVRHRPIDEF
@@ -522,7 +522,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp32"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail terminator"
                      /protein_id="YP_009288154.1"
                      /db_xref="GeneID:29066881"
                      /translation="MSNTAIRKALNSVVEELSASLSTSQRPIMVNWENVSGDHANGSG
@@ -535,7 +535,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp33"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail completion or Neck1 protein"
                      /protein_id="YP_009288155.1"
                      /db_xref="GeneID:29066882"
                      /translation="MAEVYSFAATIATWVDKTKENNDKAVRAYGMQILGRLIEISPVG
@@ -549,7 +549,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp34"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head closure Hc1"
                      /protein_id="YP_009288156.1"
                      /db_xref="GeneID:29066883"
                      /translation="MAGFNYAGLKRKVNPLIKKFGMTVTVTRPGSVDRVDGDEVVIPP
@@ -573,7 +573,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp36"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head-tail adaptor Ad1"
                      /protein_id="YP_009288158.1"
                      /db_xref="GeneID:29066885"
                      /translation="MYGDPQTFVDYAAARGVEITLGDATRHLTTVNDFLNGINWIGEQ
@@ -588,7 +588,7 @@ FEATURES             Location/Qualifiers
                      /note="probable phage protein YPO2110"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="major head protein"
                      /protein_id="YP_009288159.1"
                      /db_xref="GeneID:29066886"
                      /translation="MSLKVFQRKLVTAVTQMIPDNLNVFNAAANGAVVLGTGEVLKDV
@@ -605,7 +605,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp38"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head scaffolding protein"
                      /protein_id="YP_009288160.1"
                      /db_xref="GeneID:29066887"
                      /translation="MKLTKAEYDALPEGMKALFVADGDGYKSTFMTAEEVQAEIKGLK
@@ -636,7 +636,7 @@ FEATURES             Location/Qualifiers
                      /note="gp6"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Rz-like spanin"
                      /protein_id="YP_009288162.1"
                      /db_xref="GeneID:29066889"
                      /translation="MPLTESVYRPPCTFENASADPDEDLLVDVKNMECGAKLRAQVLE
@@ -648,7 +648,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp41"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Rz-like spanin"
                      /protein_id="YP_009288163.1"
                      /db_xref="GeneID:29066890"
                      /translation="MIKYAAIGLVIGLAVGFWQGYSYRTGVEARAAQEAQAKAQRQQT
@@ -661,7 +661,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp42"
                      /codon_start=1
                      /transl_table=11
-                     /product="capsid and scaffold protein"
+                     /product="head morphogenesis"
                      /protein_id="YP_009288164.1"
                      /db_xref="GeneID:29066891"
                      /translation="MADRMIRRHIFTQRLSNDQARRVLAMWAKFRPTLLGKLTELLDG
@@ -678,7 +678,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp43"
                      /codon_start=1
                      /transl_table=11
-                     /product="minor tail protein"
+                     /product="portal protein"
                      /protein_id="YP_009288165.1"
                      /db_xref="GeneID:29066892"
                      /translation="MTVNVDNQHPLYARIAPEWKMIRDCVAGERAVKACGPLYLPHPA
@@ -716,7 +716,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp45"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="terminase"
                      /protein_id="YP_009288167.1"
                      /db_xref="GeneID:29066894"
                      /translation="MAEIKVKGRRAKLDGRVAVTPRRKPGEQTEHTNLGPEIEYGKRR
@@ -730,7 +730,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp46"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA repair exonuclease"
                      /protein_id="YP_009288168.1"
                      /db_xref="GeneID:29066895"
                      /translation="MHPQTKITDEQLIAEIQAGTTVKDIAKKYGIALRNVYMRKARLS
@@ -759,7 +759,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp48"
                      /codon_start=1
                      /transl_table=11
-                     /product="lysozyme"
+                     /product="endolysin"
                      /protein_id="YP_009288170.1"
                      /db_xref="GeneID:29066897"
                      /translation="MRFSDNGLRFTAAWEQFSPVPYFATKKEQARGLYTWGYGHTGTN
@@ -773,7 +773,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp49"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="holin"
                      /protein_id="YP_009288171.1"
                      /db_xref="GeneID:29066898"
                      /translation="MIISVLLFVIIGASSLFNVYAPSIQDGILGRVLYLLTAMICVIG
@@ -785,7 +785,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp50"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="holin"
                      /protein_id="YP_009288172.1"
                      /db_xref="GeneID:29066899"
                      /translation="MDKLNEWLFALACLAGGFVGARIHGEATKGPLNFVLYIVVGFLC
@@ -872,7 +872,7 @@ FEATURES             Location/Qualifiers
                      /note="replicative DNA helicase, repA / DNA primase"
                      /codon_start=1
                      /transl_table=11
-                     /product="DNA primase/helicase"
+                     /product="replicative helicase-primase"
                      /protein_id="YP_009288179.1"
                      /db_xref="GeneID:29066906"
                      /translation="MSLIKFAVTRPAKKGEKARAENFQMTTEEFFEFINDAKEISSVH
@@ -896,7 +896,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp58"
                      /codon_start=1
                      /transl_table=11
-                     /product="DNA recombination nuclease inhibitor gamma"
+                     /product="transposase"
                      /protein_id="YP_009288180.1"
                      /db_xref="GeneID:29066907"
                      /translation="MNVNDAIEMLTKTVCSETSRSWAYTDAVGAVLFEIERLRLTEKE
@@ -947,7 +947,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="BI090_gp62"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="exonuclease"
                      /protein_id="YP_009288184.1"
                      /db_xref="GeneID:29066911"
                      /translation="MAIKPKRRTQSGSNTEHSLLGPSGAKKWMGCPAALVVEKDIPNE

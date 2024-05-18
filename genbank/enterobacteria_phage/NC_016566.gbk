@@ -1,4 +1,4 @@
-LOCUS       NC_016566              44077 bp    DNA     linear   PHG 21-DEC-2020
+LOCUS       NC_016566              44077 bp    DNA     linear   PHG 08-JAN-2023
 DEFINITION  Shigella phage EP23, complete genome.
 ACCESSION   NC_016566
 VERSION     NC_016566.1
@@ -8,7 +8,7 @@ KEYWORDS    RefSeq.
 SOURCE      Shigella phage EP23
   ORGANISM  Shigella phage EP23
             Viruses; Duplodnaviria; Heunggongvirae; Uroviricota;
-            Caudoviricetes; Caudovirales; Siphoviridae; Dhillonvirus.
+            Caudoviricetes; Dhillonvirus; Dhillonvirus EP23.
 REFERENCE   1  (bases 1 to 44077)
   AUTHORS   Chang,H.W. and Kim,K.H.
   TITLE     Comparative genomic analysis of bacteriophage EP23 infecting
@@ -43,7 +43,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p01"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="terminase"
                      /protein_id="YP_004957437.1"
                      /db_xref="GeneID:11536181"
                      /translation="MNKRAYIMAEIKVKGRRAKLDGRVAVTPRRKPGEQTEHTNLGPE
@@ -76,7 +76,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p03"
                      /codon_start=1
                      /transl_table=11
-                     /product="phage structural protein"
+                     /product="portal protein"
                      /protein_id="YP_004957439.1"
                      /db_xref="GeneID:11536183"
                      /translation="MTVNVDNQHPLYARIAPEWKMIRDCVAGERAVKACGPLYLPHPA
@@ -95,7 +95,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p04"
                      /codon_start=1
                      /transl_table=11
-                     /product="phage head morphogeneisis protein"
+                     /product="head morphogenesis"
                      /protein_id="YP_004957440.1"
                      /db_xref="GeneID:11536184"
                      /translation="MIRRHIFTQRLSNDQARRVLAMWEKFRPSLLGKLTELLDGKKSM
@@ -112,7 +112,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p05"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Rz-like spanin"
                      /protein_id="YP_004957441.1"
                      /db_xref="GeneID:11536185"
                      /translation="MIKYAAIGLGVGLAVGFWLGDSYRAGVVAEAAQEAQAQAQRQQT
@@ -125,7 +125,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p06"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Rz-like spanin"
                      /protein_id="YP_004957442.1"
                      /db_xref="GeneID:11536186"
                      /translation="MPLTESALRPPCKFDSPSADPDEDLMIDVKNMECGAKLRAQVLE
@@ -152,7 +152,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p08"
                      /codon_start=1
                      /transl_table=11
-                     /product="DNA polymerase III beta subunit"
+                     /product="RusA-like Holliday junction resolvase"
                      /protein_id="YP_004957444.1"
                      /db_xref="GeneID:11536188"
                      /translation="MIKVNYADLKAAMMCAATNDVRYYLNGVFFDEKGFIVASDGHRL
@@ -166,7 +166,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p09"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head scaffolding protein"
                      /protein_id="YP_004957445.1"
                      /db_xref="GeneID:11536189"
                      /translation="MKLTKAEYDALPEGMKALFVADGDGYKSTFMTAEEVQAEIKGLK
@@ -181,7 +181,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p10"
                      /codon_start=1
                      /transl_table=11
-                     /product="phage structural protein"
+                     /product="major head protein"
                      /protein_id="YP_004957446.1"
                      /db_xref="GeneID:11536190"
                      /translation="MSLTVFQRKLVTAVTQMIPDNLNVFNAAANGAVVLGTGEVLKDV
@@ -198,7 +198,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p11"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head-tail adaptor Ad1"
                      /protein_id="YP_004957447.1"
                      /db_xref="GeneID:11536191"
                      /translation="MYGDPQTFVDYAATRGVEVTLGDATRHLTVVNDFLNGINWIGEP
@@ -223,7 +223,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p13"
                      /codon_start=1
                      /transl_table=11
-                     /product="phage structural protein"
+                     /product="head closure Hc1"
                      /protein_id="YP_004957449.1"
                      /db_xref="GeneID:11536136"
                      /translation="MAGFNYSGLKRKVNPLIKKFGMTATVTRPGTVDRVDGDEVVIPP
@@ -236,7 +236,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p14"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative tail protein"
+                     /product="tail completion or Neck1 protein"
                      /protein_id="YP_004957450.1"
                      /db_xref="GeneID:11536137"
                      /translation="MAEVYSFAATIATWVDKTKENNDKAVRAYGMQILGRLIEISPVG
@@ -250,7 +250,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p15"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail terminator"
                      /protein_id="YP_004957451.1"
                      /db_xref="GeneID:11536138"
                      /translation="MSNTAIRKALNSVVEELSVSLSTSQRPIQVNWENVSGDHANGSG
@@ -263,7 +263,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p16"
                      /codon_start=1
                      /transl_table=11
-                     /product="phage tail protein"
+                     /product="major tail protein"
                      /protein_id="YP_004957452.1"
                      /db_xref="GeneID:11536139"
                      /translation="MGYQLPNGSSVQIGSVLGTGIAVTAATNAAASISDLTKGCVITC
@@ -278,7 +278,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p17"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail length tape measure protein"
                      /protein_id="YP_004957453.1"
                      /db_xref="GeneID:11536140"
                      /translation="MAKAPLFTLDPKPTFKLPIEIPRPGENEPGKMTFTVRHRPIDEF
@@ -291,7 +291,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p18"
                      /codon_start=1
                      /transl_table=11
-                     /product="phage tail length tape-measure protein 1"
+                     /product="tail length tape measure protein"
                      /protein_id="YP_004957454.1"
                      /db_xref="GeneID:11536141"
                      /translation="MADQAAGITLKADVAQIKTANTVLDTFAQKSENTEQKVKKLNDT
@@ -317,7 +317,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p19"
                      /codon_start=1
                      /transl_table=11
-                     /product="phage minor tail protein"
+                     /product="minor tail protein"
                      /protein_id="YP_004957455.1"
                      /db_xref="GeneID:11536142"
                      /translation="MSQGTITLTKGSKTVTGVGTAFLSEIGKVRVFTHIDGNDYTGKI
@@ -331,7 +331,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p20"
                      /codon_start=1
                      /transl_table=11
-                     /product="phage minor tail protein L"
+                     /product="minor tail protein"
                      /protein_id="YP_004957456.1"
                      /db_xref="GeneID:11536143"
                      /translation="MNKLYREATRFDPSGRVRLIHIDAQDVEPGDGAIGAGHHYFHYC
@@ -346,7 +346,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p21"
                      /codon_start=1
                      /transl_table=11
-                     /product="phage tail assembly protein"
+                     /product="minor tail protein"
                      /protein_id="YP_004957457.1"
                      /db_xref="GeneID:11536144"
                      /translation="MLTKKVKSDIAAHVAACLPEEACGLVVMVGRKQVFVPCMNVFED
@@ -361,7 +361,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p22"
                      /codon_start=1
                      /transl_table=11
-                     /product="phage tail assembly protein I"
+                     /product="tail protein"
                      /protein_id="YP_004957458.1"
                      /db_xref="GeneID:11536145"
                      /translation="MAMTTFKLYGVLGRRFGKVHKLDCFTPGEGITGLCVKLPGLQDF
@@ -375,7 +375,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p23"
                      /codon_start=1
                      /transl_table=11
-                     /product="phage tail fiber protein"
+                     /product="tail protein"
                      /protein_id="YP_004957459.1"
                      /db_xref="GeneID:11536146"
                      /translation="MTIIYDVTGHKGGGAKPHTPQETPDSLHSLAKARILLALGEGEF
@@ -408,7 +408,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p24"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative tail fiber protein"
+                     /product="tail fiber protein"
                      /protein_id="YP_004957460.1"
                      /db_xref="GeneID:11536147"
                      /translation="MAAGTLSVTNNSKAVVGVGTTFTEYKAGDFLSLVVGQVPYTVAI
@@ -495,7 +495,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p30"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA ligase"
                      /protein_id="YP_004957466.1"
                      /db_xref="GeneID:11536153"
                      /translation="MRILQEEKDYWAAQCLEAREQAERANALVDTNQALYEGEKKVRQ
@@ -521,7 +521,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p32"
                      /codon_start=1
                      /transl_table=11
-                     /product="helicase"
+                     /product="DNA helicase"
                      /protein_id="YP_004957468.1"
                      /db_xref="GeneID:11536155"
                      /translation="MARFRRREYQKLITAFILKHKRCNIWATMGSGKTGATMWALNKM
@@ -552,7 +552,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p34"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Lar-like restriction alleviation protein"
                      /protein_id="YP_004957470.1"
                      /db_xref="GeneID:11536157"
                      /translation="MIEEKRCSNCGCVKPLSQFHKYTGKTARSPDGYRAECKSCRNKK
@@ -564,7 +564,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p35"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="endonuclease"
                      /protein_id="YP_004957471.1"
                      /db_xref="GeneID:11536158"
                      /translation="MKDVGGFCRKLAWEGRAGAPDLIIIINGKIVFVEVKRPGGKPKP
@@ -576,7 +576,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p36"
                      /codon_start=1
                      /transl_table=11
-                     /product="DNA polymerase family A"
+                     /product="DNA polymerase"
                      /protein_id="YP_004957472.1"
                      /db_xref="GeneID:11536159"
                      /translation="MKDFERLFLDTETFSGVDLKKVGAYAYAEHPTTEIMICTYAIDE
@@ -617,7 +617,8 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p38"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Gp2.5-like ssDNA binding protein and ssDNA
+                     annealing protein"
                      /protein_id="YP_004957474.1"
                      /db_xref="GeneID:11536161"
                      /translation="MAKVNLKNVRVCFLKIWERDTPKQDGQKPAYRAVILLDKEDPQV
@@ -644,7 +645,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p40"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="exonuclease"
                      /protein_id="YP_004957476.1"
                      /db_xref="GeneID:11536163"
                      /translation="MAIKPKRKTQSGSNTEHSLLGPSGAKKWMGCPAALVVEKDIPNE
@@ -712,7 +713,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p45"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="transposase"
                      /protein_id="YP_004957481.1"
                      /db_xref="GeneID:11536168"
                      /translation="MNINDAIEMLTKTVCSETSRSWAYTDAVGAVLFEIERLRLTEKE
@@ -725,7 +726,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p46"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative helicase-primase"
+                     /product="replicative helicase-primase"
                      /protein_id="YP_004957482.1"
                      /db_xref="GeneID:11536169"
                      /translation="MSLIKFAVTRPAKKGEKARAENFQMTTDEFFEFINDAKEISSVH
@@ -812,7 +813,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p52"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative holin-like class II protein"
+                     /product="holin"
                      /protein_id="YP_004957488.1"
                      /db_xref="GeneID:11536175"
                      /translation="MDKLNEWLFALACLAGGFVGARIHGEATKGPLNFVLYVVVGFLC
@@ -824,7 +825,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p53"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative holin-like class I protein"
+                     /product="holin"
                      /protein_id="YP_004957489.1"
                      /db_xref="GeneID:11536176"
                      /translation="MIISVLLFVIIGASSLFNVYAPSVRDGIFGRVLYLLTAMVCIIG
@@ -836,7 +837,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p54"
                      /codon_start=1
                      /transl_table=11
-                     /product="lysozyme"
+                     /product="endolysin"
                      /protein_id="YP_004957490.1"
                      /db_xref="GeneID:11536177"
                      /translation="MRFSDNGLRFTAAWEAFSPVPYFATKKEQARGLYTWGYGHTGTN
@@ -862,7 +863,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="EP23p56"
                      /codon_start=1
                      /transl_table=11
-                     /product="phosphoesterase"
+                     /product="DNA repair exonuclease"
                      /protein_id="YP_004957492.1"
                      /db_xref="GeneID:11536179"
                      /translation="MHPQTKITDEQLIAEIQEGTTVKEIAKKYGIALRNVYMRKARLS

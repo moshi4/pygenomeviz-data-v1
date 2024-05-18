@@ -1,4 +1,4 @@
-LOCUS       NC_024783              44332 bp    DNA     linear   PHG 21-DEC-2020
+LOCUS       NC_024783              44332 bp    DNA     linear   PHG 08-JAN-2023
 DEFINITION  Enterobacteria phage EK99P-1, complete genome.
 ACCESSION   NC_024783
 VERSION     NC_024783.1
@@ -7,7 +7,7 @@ KEYWORDS    RefSeq.
 SOURCE      Escherichia phage EK99P-1
   ORGANISM  Escherichia phage EK99P-1
             Viruses; Duplodnaviria; Heunggongvirae; Uroviricota;
-            Caudoviricetes; Caudovirales; Siphoviridae; Dhillonvirus.
+            Caudoviricetes; Dhillonvirus; Dhillonvirus EK99P1.
 REFERENCE   1  (bases 1 to 44332)
   AUTHORS   Son,J.S., Paik,H.R., Park,S.H., Kim,B.K., Jun,S.Y., Yoon,S.J. and
             Kang,S.H.
@@ -45,7 +45,7 @@ FEATURES             Location/Qualifiers
                      /note="gp1"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="terminase"
                      /protein_id="YP_009055279.1"
                      /db_xref="GeneID:20284477"
                      /translation="MAEIKVKGRRAKLDGRVAVTPRRKPGEQTEHTNLGPEIEYGKRR
@@ -83,7 +83,7 @@ FEATURES             Location/Qualifiers
                      /note="gp3"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="portal protein"
                      /protein_id="YP_009055281.1"
                      /db_xref="GeneID:20284417"
                      /translation="MTVNVDNQHPLYARIAPEWKMIRDCVAGERAVKACGPLYLPHPA
@@ -104,7 +104,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0004"
                      /codon_start=1
                      /transl_table=11
-                     /product="head morphogenesis protein"
+                     /product="head morphogenesis"
                      /protein_id="YP_009055282.1"
                      /db_xref="GeneID:20284418"
                      /translation="MIRRHIFTQRLSNDQARRVLAMWEKFRPTLLGKLTELLDGKKSM
@@ -123,7 +123,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0005"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Rz-like spanin"
                      /protein_id="YP_009055283.1"
                      /db_xref="GeneID:20284419"
                      /translation="MIKYAAIGLVIGLAVGFWLGDSYRAGVVAEAAQEAQAKAQRQQT
@@ -138,7 +138,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0006"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Rz-like spanin"
                      /protein_id="YP_009055284.1"
                      /db_xref="GeneID:20284420"
                      /translation="MPLTESALRPPCKFDNPSADPDEDLMIDVKNMECGAKLRAQVLE
@@ -183,7 +183,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0009"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head scaffolding protein"
                      /protein_id="YP_009055287.1"
                      /db_xref="GeneID:20284423"
                      /translation="MKLTKAEYDALPEGMKALFVADGDGYKSTFMTAEEVQAEIKGLK
@@ -220,7 +220,7 @@ FEATURES             Location/Qualifiers
                      /note="gp10"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head-tail adaptor Ad1"
                      /protein_id="YP_009055289.1"
                      /db_xref="GeneID:20284425"
                      /translation="MYGDPQTFVDYAAARGVEITLGDATRHLTVVNDFLNGINWIGEQ
@@ -250,7 +250,7 @@ FEATURES             Location/Qualifiers
                      /note="gp11"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="head closure Hc1"
                      /protein_id="YP_009055291.1"
                      /db_xref="GeneID:20284427"
                      /translation="MAGFNYAGLKRKVNPLIKKFGMTVTVTRPGSVDRVDGDEVVIPP
@@ -265,7 +265,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0014"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative tail protein"
+                     /product="tail completion or Neck1 protein"
                      /protein_id="YP_009055292.1"
                      /db_xref="GeneID:20284428"
                      /translation="MAEVYSFAATIATWVDKTKENNDKAVRAYGMQILGRLIEISPVG
@@ -282,7 +282,7 @@ FEATURES             Location/Qualifiers
                      /note="gp13"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail terminator"
                      /protein_id="YP_009055293.1"
                      /db_xref="GeneID:20284429"
                      /translation="MSNTLIRKALNSVVEELSVSLSTSARPIKVNWENVSGDHANGSG
@@ -297,7 +297,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0016"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative major tail protein"
+                     /product="major tail protein"
                      /protein_id="YP_009055294.1"
                      /db_xref="GeneID:20284430"
                      /translation="MGYQLPNGSSVQIGSVLGSGIAVTAATNAAASISDLTKGCVITC
@@ -315,7 +315,7 @@ FEATURES             Location/Qualifiers
                      /note="gp15"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="tail length tape measure protein"
                      /protein_id="YP_009055295.1"
                      /db_xref="GeneID:20284431"
                      /translation="MAKAPLFTLDPKPTFKLPIEIPRPGENEPGKMTFTVRHRPIDEF
@@ -372,7 +372,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0020"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative minor tail protein"
+                     /product="minor tail protein"
                      /protein_id="YP_009055298.1"
                      /db_xref="GeneID:20284434"
                      /translation="MAQGTITLTNGSKTVTGAGTAFLSEVGKVRVFARIDGNDYTGKI
@@ -422,7 +422,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0023"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative tail assembly protein"
+                     /product="tail protein"
                      /protein_id="YP_009055301.1"
                      /db_xref="GeneID:20284437"
                      /translation="MAMTTFKLYGVLGRRFGKVHKLDCFTPGEGLTGLCVKLPGLQDF
@@ -438,7 +438,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0024"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative tail fiber tip protein"
+                     /product="tail protein"
                      /protein_id="YP_009055302.1"
                      /db_xref="GeneID:20284438"
                      /translation="MTIVYDVTGHKGGGGKQHTPQETPDSLHSLAKIRILLALGEGEF
@@ -471,7 +471,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0025"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="membrane protein"
                      /protein_id="YP_009055303.1"
                      /db_xref="GeneID:20284439"
                      /translation="MGAGILIDYNDGRPVMEITAGLRAPSYCTSFNQRAQSNKTLTIN
@@ -504,7 +504,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0027"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative tail tip protein"
+                     /product="tail fiber protein"
                      /protein_id="YP_009055305.1"
                      /db_xref="GeneID:20284441"
                      /translation="MAAGTLSVTNNSKAVAGVGTTFTAFKAGDFLTLVVGQVPYTVAI
@@ -601,7 +601,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0033"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA ligase"
                      /protein_id="YP_009055311.1"
                      /db_xref="GeneID:20284447"
                      /translation="MKILQEEKNYWAAQCLEAREQAERANALADTNQTLYEGEKKVRQ
@@ -646,7 +646,7 @@ FEATURES             Location/Qualifiers
                      /note="gp32"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA methyltransferase"
                      /protein_id="YP_009055314.1"
                      /db_xref="GeneID:20284450"
                      /translation="MTIAKMTIWSLFDGSGLMIERAAEMGHKCYCFNYSEADHGSYLD
@@ -664,7 +664,7 @@ FEATURES             Location/Qualifiers
                      /note="gp33"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA helicase"
                      /protein_id="YP_009055315.1"
                      /db_xref="GeneID:20284451"
                      /translation="MARFRRREYQKLITAFILKHKRCNIWATMGSGKTGATMWALNKM
@@ -701,7 +701,7 @@ FEATURES             Location/Qualifiers
                      /note="gp35"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Lar-like restriction alleviation protein"
                      /protein_id="YP_009055317.1"
                      /db_xref="GeneID:20284453"
                      /translation="MIEEKRCSNCGCVKPLSQFHKYTGKTARSPDGYRAECKSCRNKK
@@ -715,7 +715,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0040"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="endonuclease"
                      /protein_id="YP_009055318.1"
                      /db_xref="GeneID:20284454"
                      /translation="MKAVGGFCRKVAWEGRSGAPDLIIIINGKIVFVEVKRPGGKPKP
@@ -729,7 +729,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0041"
                      /codon_start=1
                      /transl_table=11
-                     /product="DNA polymerase I"
+                     /product="DNA polymerase"
                      /protein_id="YP_009055319.1"
                      /db_xref="GeneID:20284455"
                      /translation="MKDFERLFLDTETFSGVDLKKVGAYAYAEHPTTEIMICTYAIDE
@@ -769,7 +769,8 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0043"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="Gp2.5-like ssDNA binding protein and ssDNA
+                     annealing protein"
                      /protein_id="YP_009055321.1"
                      /db_xref="GeneID:20284457"
                      /translation="MAKVNLKNVRVCFLKIWERDTPKQDGQKPAYRAVILLDKEDPQV
@@ -800,7 +801,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0045"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="exonuclease"
                      /protein_id="YP_009055323.1"
                      /db_xref="GeneID:20284459"
                      /translation="MAIKPKRKTQSGSNTEHSLLGPSGAKKWMGCPAALVVEKDIPNE
@@ -865,7 +866,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0049"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="transposase"
                      /protein_id="YP_009055327.1"
                      /db_xref="GeneID:20284463"
                      /translation="MNINDAIEMLTKTVCSETSRSWAYTDAVGAVLFEIERLRLTEKE
@@ -880,7 +881,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0050"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative helicase-primase"
+                     /product="replicative helicase-primase"
                      /protein_id="YP_009055328.1"
                      /db_xref="GeneID:20284464"
                      /translation="MSLIKFAVTRPAKKGEKARAENLQMTTDEFFEFIKDAKEISSVH
@@ -979,7 +980,7 @@ FEATURES             Location/Qualifiers
                      /note="gp54"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="holin"
                      /protein_id="YP_009055334.1"
                      /db_xref="GeneID:20284470"
                      /translation="MDKLNEWLFAIACLAGGFVGARIHGEATKGPLNFVLYVVVGFLC
@@ -993,7 +994,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0057"
                      /codon_start=1
                      /transl_table=11
-                     /product="putative holin-like class I protein"
+                     /product="holin"
                      /protein_id="YP_009055335.1"
                      /db_xref="GeneID:20284471"
                      /translation="MIISVLLFVIIGASSLFNVYAPSVQDGFFGRVLYLLTAMTCIVG
@@ -1007,7 +1008,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0058"
                      /codon_start=1
                      /transl_table=11
-                     /product="lysozyme"
+                     /product="endolysin"
                      /protein_id="YP_009055336.1"
                      /db_xref="GeneID:20284472"
                      /translation="MRFSDNGLRFTAAWETFIPVPYFATKKEQARGLYTWGYGHTGTN
@@ -1065,7 +1066,7 @@ FEATURES             Location/Qualifiers
                      /old_locus_tag="EK99P-1_0062"
                      /codon_start=1
                      /transl_table=11
-                     /product="hypothetical protein"
+                     /product="DNA repair exonuclease"
                      /protein_id="YP_009055340.1"
                      /db_xref="GeneID:20284476"
                      /translation="MHPQTKITDEQLIAEIQAGTTVKEIAKKYGIALRNVYMRKARLS
